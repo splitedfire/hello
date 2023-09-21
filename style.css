@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.conteiner {
+    width: 1170px;
+    flex-shrink: 0;
+    margin: 0  auto;
+}
+.conteiner__title {
+    display: flex;
+    width: 1170px;
+    height: 150px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+.conteiner__title h2 {
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    
+}
+.separator:before {
+    position: absolute;
+    content: "";
+    background: #EC7979;
+    width: 170px;
+    height: 1px;
+    left: calc(50% - 85px);
+    bottom: 0;
+
+}
+.holder__subtitle h5 {
+    color: #86878B;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 40px;
+}
+.box__message {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 83px;
+}
+
+.wrapper__info {
+    width: calc((100% - 60px) / 3); 
+}
+
+.rectangle {
+    width: 370px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #E2E2E2;    
+}
+
+.rectangle-text h5 {
+    color: #86878B;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.rectangle-text {
+    width: 370px;
+    height: 105px;
+    padding-top: 38px ;
+}
+.triangle:before {
+    position: absolute;
+    content: "";
+	fill: #E2E2E2;
+    border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 30px solid #E2E2E2;;
+    bottom: 0;
+    margin-left: 30px;
+   
+}
+.wrap__text {
+    height: 200px;
+    width: 370px;
+    position: relative;
+}
+.holder__person {
+    width: 370px;
+    padding-top: 66px;
+    display: flex;
+}
+.holder__person img {
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 70px;
+    
+}
+.wrapp__name {
+    display: flex;
+    width: 269px;
+    height: 54px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    padding-left: 30px;
+}
+.wrapp__name h4 {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.wrapper__manager h5 {
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   padding-left: 100px;
+    
+}
+
